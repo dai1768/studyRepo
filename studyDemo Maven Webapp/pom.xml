@@ -9,25 +9,37 @@
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.8.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>javaee</groupId>
+			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
-			<version>5</version>
+			<version>6.0</version>
 			<scope>provided</scope>
 		</dependency>
+
+
 	</dependencies>
 	<build>
 		<finalName>studyDemo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
-  				<artifactId>jetty-maven-plugin</artifactId>
-  				<version>9.0.5.v20130815</version>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.0.5.v20130815</version>
 			</plugin>
 		</plugins>
 	</build>
