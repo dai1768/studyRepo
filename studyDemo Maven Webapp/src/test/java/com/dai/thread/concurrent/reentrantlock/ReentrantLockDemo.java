@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrantLockDemo implements Runnable{
-	private Lock lock = new ReentrantLock(true);
+	private Lock lock = new ReentrantLock(true); //true 公平
 	private Random rnd = new Random();
 	private int i=0;
 	
