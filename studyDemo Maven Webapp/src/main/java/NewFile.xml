@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tree>
+	<root>
+		<children>
+			<treeNode>
+				<data>
+					<name>a2</name>
+					<value>b2</value>
+					<label>c2</label>
+				</data>
+			</treeNode>
+			<treeNode>
+				<children>
+					<treeNode>
+						<data>
+							<name>a1</name>
+							<value>b1</value>
+							<label>c1</label>
+						</data>
+					</treeNode>
+					<treeNode>
+						<data>
+							<name>a0</name>
+							<value>b0</value>
+							<label>c0</label>
+						</data>
+					</treeNode>
+				</children>
+				<data>
+					<name>a0</name>
+					<value>b0</value>
+					<label>c0</label>
+				</data>
+			</treeNode>
+			<treeNode>
+				<data>
+					<name>a1</name>
+					<value>b1</value>
+					<label>c1</label>
+				</data>
+			</treeNode>
+		</children>
+	</root>
+</tree>
